@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <form onsubmit="return validarContacto()">
+    <h2>Contactar con nosotros</h2>
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="email" id="email" placeholder="Correo electrónico" required />
+    <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+    <label><input type="checkbox" id="acepta" /> Acepto la política de privacidad</label>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
